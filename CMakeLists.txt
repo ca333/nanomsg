@@ -95,7 +95,7 @@ endif()
 
 # User-defined options.
 
-option (NN_STATIC_LIB "Build static library instead of shared library." OFF)
+option (NN_STATIC_LIB "Build static library instead of shared library." ON)
 option (NN_ENABLE_DOC "Enable building documentation." ON)
 option (NN_ENABLE_GETADDRINFO_A "Enable/disable use of getaddrinfo_a in place of getaddrinfo." ON)
 option (NN_TESTS "Build and run nanomsg tests" ON)
